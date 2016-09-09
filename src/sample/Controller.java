@@ -1,5 +1,8 @@
 package sample;
 
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+
 /**
  * Test to github
  *
@@ -8,6 +11,16 @@ package sample;
  *
  */
 public class Controller {
+
+
+    @FXML
+    Label helloWorldLabel;
+
+
+    @FXML
+    void handleButton() {
+        helloWorldLabel.setText("Hallo DU");
+    }
 
 
 
