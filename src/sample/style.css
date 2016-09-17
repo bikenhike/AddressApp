@@ -1,3 +1,8 @@
-#helloWorldLabel {
-    background-color: aqua;
+.root {
+    -fx-background-color: aqua;
+}
+
+
+.button {
+    -fx-background-color: green;
 }
