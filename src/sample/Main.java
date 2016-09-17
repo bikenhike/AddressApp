@@ -14,7 +14,7 @@ public class Main extends Application {
 
         root.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Address Application");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
