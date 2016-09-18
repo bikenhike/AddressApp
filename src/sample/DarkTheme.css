@@ -1,0 +1,18 @@
+.background {
+
+    -fx-background-color: aqua;
+
+}
+
+
+.label {
+    -fx-text-fill: blue;
+
+
+
+}
+
+
+.button:hover {
+    -fx-background-color: gold;
+}
